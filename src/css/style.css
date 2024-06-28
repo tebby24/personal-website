@@ -10,17 +10,17 @@ html {
 }
 
 body {
-    font-family: "Noto Sans Mono", monospace;
     background-color: #1b1b24;
-    color: #929CCA;
+    color: white;
     overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, h7 {
-    color: #C8D3F5;
-    font-family: "Noto Sans Mono", monospace;
     font-weight: normal;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
+}
+p {
+    margin: 5px 0px;
 }
 
 img {
@@ -69,9 +69,13 @@ a:active {
 
 .container-horizontal {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 100%;
+}
+
+.item {
+    margin: 75px;
 }
 
 #name {
@@ -79,7 +83,7 @@ a:active {
 }
 
 #homepage-image {
-    width: 500px;
+    width: 400px;
 }
 
 .links {
