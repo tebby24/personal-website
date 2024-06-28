@@ -1,1 +1,2 @@
-teddy gonyea's personal website
+my personal website
+tebby24.com
