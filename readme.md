@@ -1,2 +1,1 @@
-my personal website
-tebby24.com
+My personal website
