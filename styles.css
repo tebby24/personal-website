@@ -1,6 +1,11 @@
 body {
-    background-color: rgb(200, 200, 200);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff; /* Clean white background for better contrast */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Improved font stack for modern readability */
+    color: #333333; /* Dark gray text for good contrast */
+    line-height: 1.6; /* Better line spacing for readability */
+    margin: 0; /* Reset default margins */
+    padding: 20px; /* Add padding for content breathing room */
+    margin: 0 auto; /* Center the content */
 }
 
 h1,
@@ -10,6 +15,40 @@ h4,
 h5,
 h6 {
     font-weight: 600;
-    margin-top: 25px;
+    margin-top: 30px; /* Slightly more top margin for separation */
+    margin-bottom: 10px; /* A bit more bottom margin */
+    line-height: 1.3; /* Tighter line height for headings */
+}
+
+/* Add specific sizes for headings to create hierarchy */
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.25em; }
+h6 { font-size: 1.1em; }
+
+/* Basic paragraph styling */
+p {
+    margin-bottom: 15px;
+}
+
+/* Link styling for better usability */
+a {
+    color: #007acc; /* Subtle blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover for clarity */
+}
+
+/* Simple list styling */
+ul, ol {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+li {
     margin-bottom: 5px;
 }
