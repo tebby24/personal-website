@@ -1,11 +1,11 @@
 body {
-    background-color: #ffffff; /* Clean white background for better contrast */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Improved font stack for modern readability */
-    color: #333333; /* Dark gray text for good contrast */
-    line-height: 1.6; /* Better line spacing for readability */
-    margin: 0; /* Reset default margins */
-    padding: 20px; /* Add padding for content breathing room */
-    margin: 0 auto; /* Center the content */
+    background-color: #c2c2c2; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #000000;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    margin: 0 auto; 
 }
 
 h1,
